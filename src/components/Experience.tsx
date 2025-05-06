@@ -5,7 +5,7 @@ const experiences = [
     title: "Full Stack Developer (Intern)",
     company: "MindtideAI",
     location: "USA",
-    period: "October 2024 - Present",
+    period: "October 2024 - March 2025",
     techStack: ["Python", "FastAPI", "Next.js", "MongoDB", "AWS"],
     description: [
       "Led the development of third-party integrations for SiteBot (AI Chatbot), successfully implementing Zendesk, Zoho, and Google Chat integrations",
