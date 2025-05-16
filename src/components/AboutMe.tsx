@@ -37,9 +37,9 @@ export const AboutMe = () => {
         </ul>
 
         <div className="flex gap-4 pt-4">
-          <Button 
+          <Button
             className="flex items-center gap-2"
-            onClick={() => window.open("https://drive.google.com/file/d/1oJhPvxKm_IPAWcig1qKCcDO1OMfW1coO/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/126kPqMFyxXknAeOxvSPfIwpZ5S6_nJQD/view?usp=sharing", "_blank")}
           >
             <FileDown className="h-4 w-4" />
             Download Resume

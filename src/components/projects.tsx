@@ -4,9 +4,9 @@ export const projects = {
             title: "JobGenie",
             description: "Smart Job Portal with GenAI-Powered Career Assistant",
             image: "/job-genie.png",
-            technologies: ["Python", "Firecrawl", "CrewAI", "Gemini", "Qdrant", "MongoDB", "Websockets", "Next.js"],
+            technologies: ["Python", "Fastapi", "Firecrawl", "CrewAI", "Gemini", "Qdrant", "MongoDB", "Websockets", "Next.js", "celery", "Virtual machine"],
             githubUrl: "https://github.com/chistym17/jobgenie",
-            liveUrl: "https://jobgenie-one.vercel.app",
+            liveUrl: "https://www.jobgenie.live",
             order: 1
         },
         {
@@ -34,7 +34,7 @@ export const projects = {
             technologies: ["Next.js", "FastAPI", "python", "MongoDB"],
             githubUrl: "https://github.com/chistym17/document-parser-backend",
             liveUrl: "https://document-parser-ten.vercel.app/",
-            order: 4
+            order: 8
         },
         {
             title: "Gradia",
@@ -70,7 +70,7 @@ export const projects = {
             technologies: ["next.js", "Node.js", "MongoDB", "Express"],
             githubUrl: "https://github.com/chistym17/czs-frontend",
             liveUrl: "https://czs-frontend-git-farhan-chisty17s-projects.vercel.app/",
-            order: 8
+            order: 4
         }
     ],
 

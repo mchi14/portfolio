@@ -9,7 +9,6 @@ import { AboutMe } from "@/components/AboutMe";
 
 const Index = () => {
   const isMobile = useIsMobile();
-
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
@@ -24,9 +23,9 @@ const Index = () => {
       )}
       <div
         className={`${isMobile
-            ? `fixed inset-y-0 left-0 z-40 transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-            } transition-transform duration-300 ease-in-out`
-            : "fixed"
+          ? `fixed inset-y-0 left-0 z-40 transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 ease-in-out`
+          : "fixed"
           }`}
       >
         <ProfileSidebar />
