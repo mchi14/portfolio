@@ -19,22 +19,22 @@ const experiences = [
 
 export const Experience = () => {
   return (
-    <div className="grid gap-6 p-6">
+    <div className="grid gap-4 md:gap-6">
       {experiences.map((exp, index) => (
         <Card key={index} className="animate-fade-in border border-zinc-800 bg-zinc-900/50">
-          <CardHeader className="space-y-6">
-            <div className="space-y-4">
-              <CardTitle className="text-xl font-bold text-white">
+          <CardHeader className="space-y-3 md:space-y-4 p-4 md:p-6">
+            <div className="space-y-2 md:space-y-3">
+              <CardTitle className="text-lg md:text-xl font-bold text-white">
                 {exp.title}
               </CardTitle>
-              <div className="text-sm text-white font-medium">
+              <div className="text-xs md:text-sm text-white/80 font-medium">
                 {exp.company} • {exp.location} • {exp.period}
               </div>
-              <div className="flex flex-wrap gap-2 pt-2">
+              <div className="flex flex-wrap gap-1.5 md:gap-2 pt-1 md:pt-2">
                 {exp.techStack.map((tech, i) => (
                   <span
                     key={i}
-                    className="px-2 py-1 text-xs font-medium rounded-full bg-blue-500/10 text-blue-400"
+                    className="px-2 py-0.5 md:py-1 text-[10px] md:text-xs font-medium rounded-full bg-blue-500/10 text-blue-400"
                   >
                     {tech}
                   </span>
@@ -42,11 +42,11 @@ export const Experience = () => {
               </div>
             </div>
           </CardHeader>
-          <CardContent>
-            <ul className="space-y-3">
+          <CardContent className="p-4 md:p-6 pt-0">
+            <ul className="space-y-2 md:space-y-3">
               {exp.description.map((item, i) => (
-                <li key={i} className="flex gap-2 text-gray-300">
-                  <span className="text-primary mt-1">•</span>
+                <li key={i} className="flex gap-2 text-xs md:text-sm text-gray-300 leading-relaxed">
+                  <span className="text-primary mt-1 flex-shrink-0">•</span>
                   <span>{item}</span>
                 </li>
               ))}
