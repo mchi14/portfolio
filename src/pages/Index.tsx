@@ -1,39 +1,12 @@
-import { ProfileSidebar } from "@/components/ProfileSidebar";
 import { ProjectGrid } from "@/components/ProjectGrid";
 import { Experience } from "@/components/Experience";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { useIsMobile } from "@/hooks/use-mobile";
-import { Menu } from "lucide-react";
-import { useState } from "react";
 import { AboutMe } from "@/components/AboutMe";
 
 const Index = () => {
-  const isMobile = useIsMobile();
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-[#141414]">
-      {isMobile && (
-        <button
-          onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-          className="fixed top-4 left-4 z-50 p-2 bg-sidebar rounded-md text-sidebar-foreground"
-        >
-          <Menu className="h-6 w-6" />
-        </button>
-      )}
-      <div
-        className={`${isMobile
-          ? `fixed inset-y-0 left-0 z-40 transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-          } transition-transform duration-300 ease-in-out`
-          : "fixed"
-          }`}
-      >
-        <ProfileSidebar />
-      </div>
-      <main
-        className={`${isMobile ? "ml-0 pt-16" : "ml-64"
-          } min-h-screen transition-all duration-300`}
-      >
+      <main className="min-h-screen">
         <div className="p-4 md:p-8">
           <Tabs defaultValue="experience" className="w-full flex flex-col items-center">
             <TabsList className="mb-8 p-1 text-lg bg-zinc-800">
