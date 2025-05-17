@@ -19,7 +19,7 @@ export const AboutMe = () => {
         <ul className="space-y-1.5 md:space-y-2 text-sm md:text-base text-gray-300">
           <li className="flex items-start gap-2 leading-relaxed">
             <span className="text-primary mt-1.5 flex-shrink-0">•</span>
-            <span>Currently working as an SDE Intern at MindtideAI, USA (Remote Position)</span>
+            <span>Ex-SDE Intern at MindtideAI, USA (Remote Position)</span>
           </li>
           <li className="flex items-start gap-2 leading-relaxed">
             <span className="text-primary mt-1.5 flex-shrink-0">•</span>

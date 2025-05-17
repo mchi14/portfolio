@@ -28,13 +28,13 @@ export const projects = {
             order: 3
         },
         {
-            title: "Docu-Mind",
-            description: "A text,image,link extraction tool",
-            image: "/documind.jpeg",
-            technologies: ["Next.js", "FastAPI", "python", "MongoDB"],
-            githubUrl: "https://github.com/chistym17/document-parser-backend",
-            liveUrl: "https://document-parser-ten.vercel.app/",
-            order: 8
+            title: "czscup",
+            description: "A football organization website for a college",
+            image: "/czs.jpeg",
+            technologies: ["next.js", "Node.js", "MongoDB", "Express"],
+            githubUrl: "https://github.com/chistym17/czs-frontend",
+            liveUrl: "https://czs-frontend-git-farhan-chisty17s-projects.vercel.app/",
+            order: 4
         },
         {
             title: "Gradia",
@@ -46,13 +46,22 @@ export const projects = {
             order: 5
         },
         {
+            title: "Docu-Mind",
+            description: "A text,image,link extraction tool",
+            image: "/documind.jpeg",
+            technologies: ["Next.js", "FastAPI", "python", "MongoDB"],
+            githubUrl: "https://github.com/chistym17/document-parser-backend",
+            liveUrl: "https://document-parser-ten.vercel.app/",
+            order: 7
+        },
+        {
             title: "YouVid",
             description: "A simple clone of Youtube",
             image: "/youvid.jpeg",
             technologies: ["javascript", "html", "css"],
             githubUrl: "https://github.com/chistym17/YouVid",
             liveUrl: "https://polite-semifreddo-b98601.netlify.app/",
-            order: 6
+            order: 8
         },
         {
             title: "skyla",
@@ -61,16 +70,7 @@ export const projects = {
             technologies: ["React", "Node.js", "MongoDB", "socket.io"],
             githubUrl: "https://github.com/chistym17/skyla-app",
             liveUrl: "https://skyla-7t80.onrender.com/",
-            order: 7
-        },
-        {
-            title: "czscup",
-            description: "A football organization website for a college",
-            image: "/czs.jpeg",
-            technologies: ["next.js", "Node.js", "MongoDB", "Express"],
-            githubUrl: "https://github.com/chistym17/czs-frontend",
-            liveUrl: "https://czs-frontend-git-farhan-chisty17s-projects.vercel.app/",
-            order: 4
+            order: 9
         }
     ],
 
@@ -81,7 +81,7 @@ export const projects = {
             image: "/cli.jpeg",
             technologies: ["Rust"],
             githubUrl: "https://github.com/chistym17/CLI-in-rust",
-            order: 1
+            order: 6
         },
         {
             title: "Redis Cache Implementation",
@@ -89,6 +89,7 @@ export const projects = {
             image: "/redis.jpeg",
             technologies: ["Rust"],
             githubUrl: "https://github.com/chistym17/Redis-Prototype--in-rust",
+            order: 10
         }
     ],
 };
