@@ -7,7 +7,7 @@ export const projects = {
             technologies: ["Python", "Fastapi", "Firecrawl", "CrewAI", "Gemini", "Qdrant", "MongoDB", "Websockets", "Next.js", "celery", "Virtual machine"],
             githubUrl: "https://github.com/chistym17/jobgenie",
             liveUrl: "https://www.jobgenie.live",
-            order: 1
+            order: 2
         },
         {
             title: "CodeHack",
@@ -16,7 +16,7 @@ export const projects = {
             technologies: ["Next.js", "Node.js", "Postgres", "Prisma", "Judge0"],
             githubUrl: "https://github.com/chistym17/codehack",
             liveUrl: "https://codehack-woad.vercel.app",
-            order: 2
+            order: 3
         },
         {
             title: "Stay-Vista",
@@ -25,7 +25,7 @@ export const projects = {
             technologies: ["React", "Tailwind CSS", "Nodejs", "MongoDB", "Express"],
             githubUrl: "https://github.com/chistym17/vista",
             liveUrl: "https://vista-omega.vercel.app/",
-            order: 3
+            order: 4
         },
         {
             title: "czscup",
@@ -33,8 +33,8 @@ export const projects = {
             image: "/czs.jpeg",
             technologies: ["next.js", "Node.js", "MongoDB", "Express"],
             githubUrl: "https://github.com/chistym17/czs-frontend",
-            liveUrl: "https://czs-frontend-git-farhan-chisty17s-projects.vercel.app/",
-            order: 4
+            liveUrl: "https://www.czssupercup.com",
+            order: 5
         },
         {
             title: "Gradia",
@@ -43,26 +43,10 @@ export const projects = {
             technologies: ["React", "Express", "MongoDB", "Nodejs"],
             githubUrl: "https://github.com/chistym17/gradia",
             liveUrl: "https://gradia-ochre.vercel.app/",
-            order: 5
+            order: 6
         },
-        {
-            title: "Docu-Mind",
-            description: "A text,image,link extraction tool",
-            image: "/documind.jpeg",
-            technologies: ["Next.js", "FastAPI", "python", "MongoDB"],
-            githubUrl: "https://github.com/chistym17/document-parser-backend",
-            liveUrl: "https://document-parser-ten.vercel.app/",
-            order: 7
-        },
-        {
-            title: "YouVid",
-            description: "A simple clone of Youtube",
-            image: "/youvid.jpeg",
-            technologies: ["javascript", "html", "css"],
-            githubUrl: "https://github.com/chistym17/YouVid",
-            liveUrl: "https://polite-semifreddo-b98601.netlify.app/",
-            order: 8
-        },
+
+
         {
             title: "skyla",
             description: "A simple chat application",
@@ -71,18 +55,21 @@ export const projects = {
             githubUrl: "https://github.com/chistym17/skyla-app",
             liveUrl: "https://skyla-7t80.onrender.com/",
             order: 9
+        },
+        {
+            title: "Healia",
+            description: "Voice powered AI health consultant",
+            image: "/healia.png",
+            technologies: ["python", "React", "Langchain", "Gemini", "Fastapi"],
+            githubUrl: "https://github.com/chistym17/health-chat",
+            liveUrl: "https://www.healia.xyz",
+            order: 1
         }
+
     ],
 
     prototypes: [
-        {
-            title: "CLI to search for words",
-            description: "Command-line tool to search for words",
-            image: "/cli.jpeg",
-            technologies: ["Rust"],
-            githubUrl: "https://github.com/chistym17/CLI-in-rust",
-            order: 6
-        },
+
         {
             title: "Redis Cache Implementation",
             description: "Custom caching system prototype",
